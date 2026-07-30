@@ -1,0 +1,20 @@
+README.md
+  s_0b44d896fa6b62::t_dff57ad9171693 18-19
+  s_0b44d896fa6b62::t_b73f76edd2a606 10-16,26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "fc22225b0b1e12a80e63d79b430defcfba9cec95",
+  "prompts": {},
+  "sessions": {
+    "s_0b44d896fa6b62": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a790e1d8-2e9e-4edd-b357-b052da441bb3",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Dylan Wolpe <dylan@tinyfiles.io>"
+    }
+  }
+}
