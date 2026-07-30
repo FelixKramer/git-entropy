@@ -112,3 +112,5 @@ enormous number of analyses that people do take seriously.
 ## Licence
 
 MIT. Do whatever you like with it.
+
+## Built by Dylan Wolpe
