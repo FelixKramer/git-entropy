@@ -1,0 +1,27 @@
+[project]
+name = "git-entropy"
+version = "0.1.0"
+description = "How much information is actually in your commit history?"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Dylan Wolpe" }]
+keywords = ["git", "entropy", "information-theory", "compression", "commits"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Version Control :: Git",
+]
+dependencies = []
+
+[project.scripts]
+git-entropy = "git_entropy:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["git_entropy"]
