@@ -1,0 +1,47 @@
+README.md
+  s_0b44d896fa6b62::t_f3ec071b959536 1-114
+git_entropy.py
+  s_0b44d896fa6b62::t_4ee13ef82f34a1 1,38-50,84,88-111,113-115,135-144,151-160,168-213,217-230,247-264,268-270,274-293,296-302
+  s_0b44d896fa6b62::t_f471a4b7a3db83 267,271-272
+  s_0b44d896fa6b62::t_dd802484b16eab 231,233
+  s_0b44d896fa6b62::t_3d9ae8029f0252 112,116-132
+  s_0b44d896fa6b62::t_35e89b5355bfc8 235-237,239-244
+  s_0b44d896fa6b62::t_f7904b1f734fe5 238
+  s_0b44d896fa6b62::t_9168e93b7a5949 52-82
+  s_0b44d896fa6b62::t_79ce9909722daf 2-4,35-37
+  s_0b44d896fa6b62::t_d8fbd0e7c1a671 51
+  s_0b44d896fa6b62::t_dfed16ef36c77c 83
+  s_0b44d896fa6b62::t_82a5b2359cb20b 85-87
+  s_0b44d896fa6b62::t_03abb91c035170 133-134
+  s_0b44d896fa6b62::t_d397e2aebdcbc7 145-150
+  s_0b44d896fa6b62::t_6c751b963a443c 161-163,165-167
+  s_0b44d896fa6b62::t_9b9d9a0e030184 214-216
+  s_0b44d896fa6b62::t_89b22f06ee1de7 232
+  s_0b44d896fa6b62::t_6b532fbd5e8b56 234
+  s_0b44d896fa6b62::t_8fd2a6b83bc316 245-246
+  s_0b44d896fa6b62::t_bfcf6f46395848 265-266
+  s_0b44d896fa6b62::t_1993fedcc2dd24 273
+  s_0b44d896fa6b62::t_1a5700fdff0856 294-295
+.gitignore
+  s_0b44d896fa6b62::t_c1de6846d81a6a 1-5
+LICENSE
+  s_0b44d896fa6b62::t_341cf3871bf128 1-21
+pyproject.toml
+  s_0b44d896fa6b62::t_b369ab28f9d2b9 1-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "ddb77db29522c29d65e3e8476256d34b5b2c7d92",
+  "prompts": {},
+  "sessions": {
+    "s_0b44d896fa6b62": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a790e1d8-2e9e-4edd-b357-b052da441bb3",
+        "model": "claude-opus-5"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
