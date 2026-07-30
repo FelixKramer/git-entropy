@@ -7,43 +7,23 @@ genuinely need to transmit your project's entire history to somebody else.
 
 The answer is usually humbling.
 
-```
-  git-entropy
-  ──────────────────────────────────────────────────────────────
-  5,539 commits · 54,016 words · 435.7 KB of text
+![git-entropy run against the emojicode repository](docs/example-emojicode.png)
 
-  ┌────────────────────────────────────────────────────────────┐
-  │  ACTUAL INFORMATION CONTENT                                │
-  │  119.9 KB                                                  │
-  │  the whole history would fit in this                       │
-  └────────────────────────────────────────────────────────────┘
+That's [emojicode](https://github.com/emojicode/emojicode), a programming language written in emoji.
+Six years of it. Every commit anyone ever wrote fits in **18 KB** — about the size of this README.
 
-  compression         ████████····················  4× smaller than the text
-  new info per commit ███████████·················  24 bytes (median)
-  told us nothing new ····························  92 commits (2%)
-  real structure      ████████····················  28% survives word-shuffling
+It also produces the only leaderboard of its kind, in which the least informative commit in the
+project is `🎉 Beta 3` at 8 bytes, narrowly edged out for meaninglessness by `🚀 from 🔡`.
 
-  LEAST INFORMATIVE COMMITS
-       8 B   7c9303b7  More typo fixes
-       8 B   58fa088a  Added missing file (fileupload docs)
-       8 B   693e4449  Fix typo.
-       8 B   e140bad3  fixed typo
-       8 B   77492f8a  typo
-
-  MOST REPEATED PHRASES
-    1209×   pull request
-    1201×   merge pull
-    1199×   request from
-```
-
-*(That's Flask. Fifteen years of work by hundreds of people: 120 KB.)*
+For a less whimsical control: Flask — fifteen years of work by hundreds of people, 5,539 commits —
+comes to 120 KB.
 
 ## Run it
 
 No install, no dependencies, works with the Python you already have:
 
 ```bash
-curl -O https://raw.githubusercontent.com/USER/git-entropy/main/git_entropy.py
+curl -O https://raw.githubusercontent.com/FelixKramer/git-entropy/main/git_entropy.py
 python git_entropy.py /path/to/repo
 ```
 
